@@ -1,0 +1,20 @@
+# Netscape HTTP Cookie File
+
+mix.com	FALSE	/	FALSE	1775907678	persist:tweaks	%7B%22showDebugInfo%22%3A%22false%22%2C%22isCanary%22%3A%22false%22%2C%22enableFullScreenMode%22%3A%22false%22%2C%22hasTweakedEnv%22%3A%22false%22%2C%22showBusinessEventsModal%22%3A%22false%22%2C%22useInter%22%3A%22false%22%7D
+.mix.com	TRUE	/	FALSE	1778895324	_ga_RHKK9XV9PD	GS1.1.1744335323.2.0.1744335324.0.0.1999862286
+.mix.com	TRUE	/	FALSE	1778892113	_ga	GA1.1.1676793380.1744332113
+.mix.com	TRUE	/	FALSE	1752108113	_gcl_au	1.1.708825479.1744332113
+.mix.com	TRUE	/	TRUE	1752108114	_rdt_uuid	1744332114307.20929138-05b7-4201-bb15-4ad19e401e7c
+.mix.com	TRUE	/	FALSE	1775868114	_clck	9x230s%7C2%7Cfuz%7C0%7C1927
+.mix.com	TRUE	/	FALSE	1744421717	_clsk	hsqz2o%7C1744335317393%7C1%7C1%7Cj.clarity.ms%2Fcollect
+mix.com	FALSE	/	TRUE	0	temp_id	anon%3A3e0919dd-8d55-48
+mix.com	FALSE	/	FALSE	1744954084	i_ref	https%3A%2F%2Fwww.facebook.com%2F
+mix.com	FALSE	/	FALSE	0		undefined
+mix.com	FALSE	/	TRUE	0	mix_uid	6121401
+mix.com	FALSE	/	FALSE	1759907504	g_state	{"i_l":0}
+mix.com	FALSE	/	TRUE	1744355804	g_csrf_token	b56559354a0d224c
+mix.com	FALSE	/	TRUE	1744370178	return_url	%2Ftopic%2Famazing
+.mix.com	TRUE	/	FALSE	1775907680	ajs_anonymous_id	acd600b1-6198-479e-8715-411811b6e096
+mix.com	FALSE	/	TRUE	1775907677	token	s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MTIxNDAxLCJpYXQiOjE3NDQzNzE2NzQsImV4cCI6MTc3NTkyOTI3NCwiaXNzIjoibWl4LmNvbSJ9.BcBgs84l5U8zccnUFPqGq1VFMb9bqDxSzEKUoEnOSJc.hjueqaoU%2BusQbiBI1GHRt3Uf6yhWMLHopAeDjaEcTpo
+.mix.com	TRUE	/	TRUE	1775907677	intoprd	s%3AeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo2MTIxNDAxLCJpYXQiOjE3NDQzNzE2NzQsImV4cCI6MTc3NTkyOTI3NCwiaXNzIjoibWl4LmNvbSJ9.BcBgs84l5U8zccnUFPqGq1VFMb9bqDxSzEKUoEnOSJc.hjueqaoU%2BusQbiBI1GHRt3Uf6yhWMLHopAeDjaEcTpo
+mix.com	FALSE	/	TRUE	0	mix_i	true
