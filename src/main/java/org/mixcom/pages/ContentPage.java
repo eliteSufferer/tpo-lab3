@@ -21,17 +21,10 @@ public class ContentPage extends BasePage {
     private static final String FOLLOW_CONFIRMATION  = "//button[contains(text(), 'Following')]";
 
     private static final String SEARCH_ICON = "/html/body/div[1]/main/div[1]/div/div[1]/div/div[3]/a";
-    private static final String SEARCH_INPUT = "//input[contains(@class, 'border-none')]";
-    private static final String SEARCH_RESULT = "//div[contains(@class, 'relative')][1]//div[contains(@class, 'absolute')]";
-    private static final String SEARCH_CONTAINER = "//div[contains(@class, 'h-fit')]";
+    private static final String SEARCH_INPUT = "/html/body/div[1]/main/div[1]/div/div[2]/div[1]/input";
+    private static final String SEARCH_RESULT = "/html/body/div[1]/main/div[1]/div/div[2]/div[3]/div[1]/div[2]/div/div[1]/a/div";
+    private static final String SEARCH_CONTAINER = "/html/body/div[1]/main/div[1]/div/div[2]/div[1]";
 
-    private static final String FILTERS_MENU_BUTTON = "//*[name()='path'][9]";
-    private static final String FILTER_OPTION_1 = "//div[contains(@class, 'justify-between')][2]/*[contains(@class, 'size-9')]";
-    private static final String FILTER_OPTION_2 = "//div[contains(@class, 'relative')][3]/*[contains(@class, 'size-9')]";
-    private static final String FILTER_OPTION_3 = "//div[contains(@class, 'relative')][4]/*[contains(@class, 'size-9')]";
-    private static final String HIDDEN_OPTION_1 = "//div[contains(@class, 'flex')][3]/*[contains(@class, 'invisible')]";
-    private static final String HIDDEN_OPTION_2 = "//div[contains(@class, 'relative')][2]/*[contains(@class, 'invisible')]";
-    private static final String APPLY_BUTTON = "//button[contains(@class, 'bg-orange-500')]";
 
     public ContentPage(WebDriver driver) {
         super(driver);
@@ -113,33 +106,5 @@ public class ContentPage extends BasePage {
 
     public void resetMousePosition() {
         new Actions(driver).moveToElement(driver.findElement(By.tagName("body")), 0, 0).perform();
-    }
-
-    public void openFiltersMenu() {
-        waitAndClick(FILTERS_MENU_BUTTON);
-    }
-
-    public void selectFilterOption1() {
-        waitAndClick(FILTER_OPTION_1);
-    }
-
-    public void selectFilterOption2() {
-        waitAndClick(FILTER_OPTION_2);
-    }
-
-    public void selectFilterOption3() {
-        waitAndClick(FILTER_OPTION_3);
-    }
-
-    public void selectHiddenOption1() {
-        clickWithJS(HIDDEN_OPTION_1);
-    }
-
-    public void selectHiddenOption2() {
-        clickWithJS(HIDDEN_OPTION_2);
-    }
-
-    public void applyFilters() {
-        waitAndClick(APPLY_BUTTON);
     }
 }
